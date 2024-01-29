@@ -1,0 +1,26 @@
+svg#areaChart {
+  g.highlight-rect {
+    opacity: 0;
+  }
+  g.highlight-rect:hover {
+    opacity: 1;
+  }
+
+  g.highlight-rect.active {
+    opacity: 1;
+  }
+
+  .tick.active {
+    text {
+      color: white;
+    }
+
+    rect {
+      fill: #ac17d1;
+    }
+  }
+
+  .tick text {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
