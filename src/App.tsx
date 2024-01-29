@@ -1,6 +1,5 @@
 import './App.css';
-import { Header, Footer } from './components';
-import { HeroSection } from './components/HeroSection';
+import { Header, Footer, HeroSection, FeaturesSection } from './components';
 
 function App() {
   return (
@@ -8,6 +7,9 @@ function App() {
       <Header />
 
       <HeroSection />
+
+      <FeaturesSection />
+
       {Array(100)
         .fill(null)
         .map((_, i) => (

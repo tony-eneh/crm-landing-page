@@ -6,3 +6,5 @@ export * from './GlassyCard';
 export * from './Rating';
 export * from './OutlinedButton';
 export * from './icons';
+export * from './HeroSection';
+export * from './FeaturesSection';
